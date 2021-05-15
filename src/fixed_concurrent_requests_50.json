@@ -1,0 +1,52 @@
+{
+    "tests": [
+        {
+            "label": "100 requests",
+            "url_get": "https://play.rust-lang.org",
+            "requests_number": 100,
+            "concurrent_requests": 50,
+            "repeats": 3,
+            "delay_s": 1
+        },
+        {
+            "label": "150 requests",
+            "url_get": "https://play.rust-lang.org",
+            "requests_number": 150,
+            "concurrent_requests": 50,
+            "repeats": 3,
+            "delay_s": 1
+        },
+        {
+            "label": "200 requests",
+            "url_get": "https://play.rust-lang.org",
+            "requests_number": 200,
+            "concurrent_requests": 50,
+            "repeats": 3,
+            "delay_s": 1
+        },
+        {
+            "label": "250 requests",
+            "url_get": "https://play.rust-lang.org",
+            "requests_number": 250,
+            "concurrent_requests": 50,
+            "repeats": 3,
+            "delay_s": 1
+        },
+        {
+            "label": "300 requests",
+            "url_get": "https://play.rust-lang.org",
+            "requests_number": 300,
+            "concurrent_requests": 50,
+            "repeats": 3,
+            "delay_s": 1
+        },
+        {
+            "label": "350 requests",
+            "url_get": "https://play.rust-lang.org",
+            "requests_number": 350,
+            "concurrent_requests": 50,
+            "repeats": 3,
+            "delay_s": 1
+        }
+    ]
+}
